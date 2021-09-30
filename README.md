@@ -18,5 +18,5 @@ for(int i=0;i<in1.length();i++)
       .....
 ```
 It is like bubble sort. we have to check what character is same .
-+ if we found the same character then erase the character in save[j].
++ if we found the same character then erase the character in string in2[j].
 + -> (Avoid duplication)
