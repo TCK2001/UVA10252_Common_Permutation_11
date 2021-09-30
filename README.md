@@ -13,7 +13,9 @@ for(int i=0;i<in1.length();i++)
   {
     if(in1[i]==in2[j])
     {
-      .......
+      .....
+      in2.erase(j,1);
+      .....
 ```
 It is like bubble sort. we have to check what character is same .
 + if we found the same character then erase the character in save[j].
